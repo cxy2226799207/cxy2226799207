@@ -1,0 +1,304 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    
+    color: rgb(42, 61, 79);
+    font-family: 楷体;
+    background-color: rgb(235, 225, 225);
+}
+ 
+.header {
+    width: 100%;
+    height: 150px;
+}
+
+#hi1 {
+    
+    width: 100%;
+    height: 150px;
+}
+ 
+.dh ul {
+    width: 101%;
+    padding: 0px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+ 
+.dh ul li {
+    height: 30px;
+    width:16.5%;
+    list-style: none;
+    float: left;
+    display: inline;
+    font: 0.9em;
+}
+ 
+.dh ul li a {
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-family: 楷体;
+    width: 100%;
+    margin: 0px;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(87, 156, 241);
+    line-height: 40px;
+    border-bottom: 0px solid rgb(168, 164, 172);
+}
+ 
+.dh ul li a:hover {    
+    color: rgb(0, 0, 0);
+    background-color: rgb(37, 84, 155);
+    border-bottom: 3px solid rgb(16, 4, 28);
+    
+}
+ 
+.footer {
+    margin-top: 10px;
+    clear: both;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(227,231,234,1.00);
+    color: rgb(99, 34, 34);
+    font: italic 14px/20px 宋体;
+    text-align: center;
+} 
+.zhuti {/*主体内容*/
+    margin: 20px 100px 0px 100px;
+}
+
+/*轮播图*/
+.slider {
+    position: relative;
+	pointer-events: auto;
+    overflow: hidden;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.slides img {
+    width: 100%;
+	
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
+ 
+#lishi {
+    clear: both;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-color: rgb(75, 99, 153);
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+#huafen {
+    clear: both;
+    margin-top: 20px;
+    padding: 5px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(75, 99, 153);
+    border-style: dashed;
+    border-radius: 10px; 
+}
+#dili {
+    clear: both;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-top: 20px;
+    border-color: rgb(75, 99, 153);
+    border-style: dashed;
+    border-radius: 10px;
+ 
+}
+
+#renkou {
+    /*人口*/
+    clear: both;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-top: 20px;
+    border-color: rgb(75, 99, 153);
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+
+/*风景*/
+
+.fengjing-item {
+    float: left;
+    width: 30%; 
+    margin: 10px; 
+    position: relative;
+    overflow: hidden;
+	height: 500px;
+}
+
+.fengjing-item img {
+    width: 100%;
+    height: auto;
+}
+
+.jieshao {
+    position: absolute;
+    bottom: 60px;
+    left: 10px;
+    right: 0;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+/* 美食*/
+
+.food-section {
+    margin: 20px;
+    display: flex;
+}
+
+.food-item {
+    flex: 0 0 33.3333%; 
+    margin-bottom: 20px; 
+}
+
+.food-item img {
+    width: 100%; 
+    height: auto; 
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+.food-description {
+    margin-top: 10px; 
+}
+
+.food-description h2 {
+    margin-top: 0; 
+}
+
+.food-description p {
+    margin-top: 5px; 
+}
+  
+
+
+/*登录*/
+
+.login-container {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+	background:#C17273;}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:#3F3939;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
+
+/*注册*/
+
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3F3939;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3F3939;
+}
+
+
+
+
